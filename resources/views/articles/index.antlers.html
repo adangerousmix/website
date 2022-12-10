@@ -1,6 +1,5 @@
 <div class="max-w-5xl mx-auto relative mt-16">
-    {{ svg src="/assets/site/scratches" class="absolute text-gray-800 mt-8 top-0 left-0 w-20 hidden md:block" }}
-    <article class="py-32 max-w-2xl mx-auto">
+    <article class="py-16 max-w-2xl mx-auto">
         <header class="content mb-16">
             <h1>{{ title }}</h1>
             {{ content | widont }}
@@ -8,8 +7,7 @@
 
         {{ collection:articles as="articles" paginate="10" }}
         {{ if no_results }}
-        <h2 class="text-3xl italic tracking-tight">Feel the rhythm! Feel the rhyme! Get on up, it's writing time! Cool
-            writings!</h2>
+        <h2 class="text-3xl italic tracking-tight">There is nothing to see here. Yet!</h2>
         {{ /if }}
 
         {{ articles }}
