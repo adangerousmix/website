@@ -38,6 +38,14 @@ return [
     */
 
     'widgets' => [
+        [
+            'type' => 'articles',
+            'width' => 50,
+        ],
+        [
+            'type' => 'pages',
+            'width' => 50,
+        ],
         'getting_started',
     ],
 
