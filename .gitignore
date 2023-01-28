@@ -16,3 +16,10 @@ yarn-error.log
 .DS_Store
 /.idea
 /.vscode
+users/ned@adangerousmix.com.yaml
+content/trees/collections/pages.yaml
+content/taxonomies/topics/movies.yaml
+content/collections/pages/uses.md
+content/collections/pages/home.md
+content/collections/pages/articles.md
+content/collections/articles/2022-12-10.noelle.md
